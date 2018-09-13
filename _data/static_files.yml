@@ -1504,6 +1504,36 @@
   - gif
   - jim
   - looking
+- title: fresh-prince-one.gif
+  category: highfive
+  path: highfive/fresh-prince-one.gif
+  modified_time: 1536796153
+  tags:
+  - fresh
+  - gif
+  - highfive
+  - one
+  - prince
+- title: fresh-prince-three.gif
+  category: highfive
+  path: highfive/fresh-prince-three.gif
+  modified_time: 1536796187
+  tags:
+  - fresh
+  - gif
+  - highfive
+  - prince
+  - three
+- title: fresh-prince-two.gif
+  category: highfive
+  path: highfive/fresh-prince-two.gif
+  modified_time: 1536796211
+  tags:
+  - fresh
+  - gif
+  - highfive
+  - prince
+  - two
 - title: new-world-order.gif
   category: excited
   path: excited/new-world-order.gif

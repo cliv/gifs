@@ -12,11 +12,6 @@
     </div>
 
     <div class="header-content">
-      <p>
-        <a href="#" onClick="copyToClipboard(gifPreviewLink)" id='gif-link-raw'><i class="fas fa-link"></i></a>
-        <a href="#" onClick="copyToClipboard('![' + gifPreviewLink + '](' + gifPreviewLink +')')" id='gif-link-gh'><i class="fab fa-github"></i></a>
-      </p>
-
       <h1>My Gif Collection</h1>
 
       <div class="filter">
@@ -98,6 +93,19 @@
       aNode.innerHTML = item.title;
 
       liNode.appendChild(aNode);
+
+      // <a href="#" onClick="copyToClipboard(gifPreviewLink)" id='gif-link-raw'><i class="fas fa-link"></i></a>
+      // <a href="#" onClick="copyToClipboard('![' + gifPreviewLink + '](' + gifPreviewLink +')')" id='gif-link-gh'><i class="fab fa-github"></i></a>
+      ghNode = document.createElement('a');
+      ghNode.setAttribute('class', 'gif-link gh');
+      ghNode.innerHTML = '<i class="fab fa-github"></i>';
+      liNode.appendChild(ghNode);
+
+      rawNode = document.createElement('a');
+      rawNode.setAttribute('class', 'gif-link raw');
+      rawNode.innerHTML = '<i class="fas fa-link"></i>';
+      liNode.appendChild(rawNode);
+
       currentCategoryListNode.appendChild(liNode);
     }
 

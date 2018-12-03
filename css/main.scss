@@ -206,10 +206,14 @@ body{
           a {
             color: $blue_text_lht;
             text-decoration: none;
-            display: block;
+            display: inline-block;
             padding: 8px 10px;
           }
 
+          a.gif-link {
+            float: right;
+          }
+          
           &:hover {
             background-color: #3a5066;
 

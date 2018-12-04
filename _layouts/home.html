@@ -51,12 +51,28 @@
       }
     }
 
-    function hoverListener(evt) {
-      preview.src = evt.target.href;
-      gifPreviewLink = evt.target.href;
+    function hoverListener(event) {
+      href = event.currentTarget.querySelector('a').href;
 
-      togglePreviewBackground();
+      if (preview.src !== href) {
+        preview.src = href;
+        gifPreviewLink = href;
+
+        togglePreviewBackground();
+      }
     };
+
+    function clickListener(event) {
+      classes = event.currentTarget.classList;
+      href = event.currentTarget.parentElement.querySelector('a').href;
+      
+      if (classes.contains('raw')) {
+        copyToClipboard(href);
+      }
+      if (classes.contains('gh')) {
+        copyToClipboard('![' + href + '](' + href +')');
+      }
+    }
 
     function createCategoryListNode(ulNode, name) {
       var liNode = document.createElement('li'),
@@ -89,19 +105,17 @@
 
       aNode.setAttribute('href', '{{ site.github.url | append: "/" }}' + item.path);
       aNode.setAttribute('title', item.title);
-      aNode.setAttribute('class', 'gif');
       aNode.innerHTML = item.title;
 
+      liNode.setAttribute('class', 'gif');
       liNode.appendChild(aNode);
 
-      // <a href="#" onClick="copyToClipboard(gifPreviewLink)" id='gif-link-raw'><i class="fas fa-link"></i></a>
-      // <a href="#" onClick="copyToClipboard('![' + gifPreviewLink + '](' + gifPreviewLink +')')" id='gif-link-gh'><i class="fab fa-github"></i></a>
-      ghNode = document.createElement('a');
+      ghNode = document.createElement('button');
       ghNode.setAttribute('class', 'gif-link gh');
       ghNode.innerHTML = '<i class="fab fa-github"></i>';
       liNode.appendChild(ghNode);
 
-      rawNode = document.createElement('a');
+      rawNode = document.createElement('button');
       rawNode.setAttribute('class', 'gif-link raw');
       rawNode.innerHTML = '<i class="fas fa-link"></i>';
       liNode.appendChild(rawNode);
@@ -117,6 +131,7 @@
     var links = document.getElementsByClassName("gif");
     for (var i = 0; i < links.length; i++) {
       links[i].addEventListener("mouseover", hoverListener);
+      links[i].querySelectorAll("button").forEach(function(elem) { elem.addEventListener("click", clickListener); });
     }
 
     var originalTitle = document.title;

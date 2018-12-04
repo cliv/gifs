@@ -944,6 +944,61 @@
   - indiana
   - jones
   - sand
+- title: wwdits_swearwolves.gif
+  category: vampires
+  path: vampires/wwdits_swearwolves.gif
+  modified_time: 1541167835
+  tags:
+  - gif
+  - swearwolves
+  - vampires
+  - wwdits
+- title: wwdits_vlad_eyebrows.gif
+  category: vampires
+  path: vampires/wwdits_vlad_eyebrows.gif
+  modified_time: 1541167898
+  tags:
+  - eyebrows
+  - gif
+  - vampires
+  - vlad
+  - wwdits
+- title: wwdits_what.gif
+  category: vampires
+  path: vampires/wwdits_what.gif
+  modified_time: 1541167753
+  tags:
+  - gif
+  - vampires
+  - what
+  - wwdits
+- title: wwdits_poker.gif
+  category: vampires
+  path: vampires/wwdits_poker.gif
+  modified_time: 1541167820
+  tags:
+  - gif
+  - poker
+  - vampires
+  - wwdits
+- title: wwdits_scare.gif
+  category: vampires
+  path: vampires/wwdits_scare.gif
+  modified_time: 1541167792
+  tags:
+  - gif
+  - scare
+  - vampires
+  - wwdits
+- title: wwdits_look.gif
+  category: vampires
+  path: vampires/wwdits_look.gif
+  modified_time: 1541167858
+  tags:
+  - gif
+  - look
+  - vampires
+  - wwdits
 - title: air-juggling.gif
   category: will-ferrell
   path: will-ferrell/air-juggling.gif
@@ -2073,6 +2128,15 @@
   - jurassic
   - park
   - quickly
+- title: bubs-decent.gif
+  category: tpb
+  path: tpb/bubs-decent.gif
+  modified_time: 1540906507
+  tags:
+  - bubs
+  - decent
+  - gif
+  - tpb
 - title: shaggy-guy-thumbsup.gif
   category: thumbs-up
   path: thumbs-up/shaggy-guy-thumbsup.gif
@@ -2133,6 +2197,16 @@
   - chan
   - gif
   - jakie
+  - thumbs
+  - thumbsup
+  - up
+- title: b99-thumbsup.gif
+  category: thumbs-up
+  path: thumbs-up/b99-thumbsup.gif
+  modified_time: 1543885708
+  tags:
+  - b99
+  - gif
   - thumbs
   - thumbsup
   - up
@@ -4011,6 +4085,22 @@
   - gif
   - 'yes'
   - yup
+- title: yas.gif
+  category: 'yes'
+  path: yes/yas.gif
+  modified_time: 1543885617
+  tags:
+  - gif
+  - yas
+  - 'yes'
+- title: hellyea.gif
+  category: 'yes'
+  path: yes/hellyea.gif
+  modified_time: 1543885666
+  tags:
+  - gif
+  - hellyea
+  - 'yes'
 - title: mr-robot-pass.gif
   category: puff
   path: puff/mr-robot-pass.gif
@@ -4584,6 +4674,15 @@
   - gif
   - pour
   - whiskey
+- title: crying_beaver.gif
+  category: canada
+  path: canada/crying_beaver.gif
+  modified_time: 1541008618
+  tags:
+  - beaver
+  - canada
+  - crying
+  - gif
 - title: yoda-headbob.gif
   category: headbob
   path: headbob/yoda-headbob.gif

@@ -457,6 +457,15 @@
   - Its
   - complicated
   - gif
+- title: but-why.gif
+  category: confused
+  path: confused/but-why.gif
+  modified_time: 1592319207
+  tags:
+  - but
+  - confused
+  - gif
+  - why
 - title: confused-travolta.gif
   category: confused
   path: confused/confused-travolta.gif
@@ -1931,6 +1940,15 @@
   - hacking
   - mr
   - robot
+- title: ncis-pairs-hacking.gif
+  category: hacking
+  path: hacking/ncis-pairs-hacking.gif
+  modified_time: 1600258859
+  tags:
+  - gif
+  - hacking
+  - ncis
+  - pairs
 - title: typity-type.gif
   category: hacking
   path: hacking/typity-type.gif
@@ -2000,6 +2018,16 @@
   - handwave
   - wave
   - whiz
+- title: data-hates-this.gif
+  category: hate
+  path: hate/data-hates-this.gif
+  modified_time: 1595613735
+  tags:
+  - data
+  - gif
+  - hate
+  - hates
+  - this
 - title: haters-gone-hate.gif
   category: haters-gonna-hate
   path: haters-gonna-hate/haters-gone-hate.gif
@@ -2379,6 +2407,15 @@
   - intense
   - murphy
   - stare
+- title: garbage-truck.gif
+  category: jfdi
+  path: jfdi/garbage-truck.gif
+  modified_time: 1601501148
+  tags:
+  - garbage
+  - gif
+  - jfdi
+  - truck
 - title: square-peg.gif
   category: jfdi
   path: jfdi/square-peg.gif
@@ -2814,6 +2851,15 @@
   - gif
   - money
   - throwing
+- title: ws-money-driveby.gif
+  category: money
+  path: money/ws-money-driveby.gif
+  modified_time: 1599240882
+  tags:
+  - driveby
+  - gif
+  - money
+  - ws
 - title: napoleon.gif
   category: napoleon
   path: napoleon/napoleon.gif
